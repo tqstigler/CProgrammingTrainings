@@ -1,0 +1,8 @@
+New Repository on the command line
+echo "# C-ProgrammingTrainings" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/tqstigler/C-ProgrammingTrainings.git
+git push -u origin main
